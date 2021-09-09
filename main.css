@@ -684,6 +684,7 @@ filter: grayscale(0);
     font-weight: 400;
     font-size: 1.5rem;
     margin-bottom: 15px;
+    padding: 10px;
   }
   .slider{
     height: 300px;
