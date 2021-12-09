@@ -178,6 +178,7 @@ main{
   line-height: 2.5rem;
   font-size: var(--font-s-para);
   padding:20px;
+  padding-top: 0PX;
   padding-left: 30px;
   background-color: #f0efef;
   margin-bottom: 10px;
@@ -203,7 +204,7 @@ main{
  .intro {
   display: inline-block;
   align-self: flex-start;
-  width: 30%;
+  width: 50%;
   letter-spacing: .04rem;
   word-spacing: .5rem;
   font-size: var(--font-s-para);
@@ -246,6 +247,7 @@ main{
 .seven-wonders >img{
   height: 100%;
   width: 100%;
+  object-fit: cover;
 }
 .seven-wonders>span a{
   color: rgb(255, 68, 68);
@@ -281,6 +283,8 @@ main{
 .slide img{
   height: 100%;
   width: 100%;
+  object-fit: cover;
+
 }
 .navigation{
   position: absolute;
