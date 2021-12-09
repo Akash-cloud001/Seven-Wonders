@@ -165,7 +165,7 @@ main{
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  padding-bottom: 30px;
+  padding-bottom: 0px;
   word-break: break-word;
   overflow-wrap: break-word;
 }
@@ -560,7 +560,7 @@ filter: grayscale(0);
 
 
 
-@media screen and (max-width:572px){
+@media screen and (max-width:700px){
   :root{
     --font-s12 : 1.1rem;
     --font-s-heading : 1.5rem;
@@ -694,7 +694,7 @@ filter: grayscale(0);
   }
   .contact form button{
     width: 15%;
-    height: 25px;
+    height: 20px;
     margin-left: 37%;
     font-size: .8rem;
     font-weight: 400;
